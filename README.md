@@ -21,18 +21,15 @@ This function should report the number of records whose entity is 'Argentina' or
     It should return True if it's possible to perform matrix multiplication between the three matrices (n1 x n2 x n3), and False if it's not possible.
 
     Example:
+    ```python
         n1 = np.array([[0,0,0],[1,1,1],[2,2,2]])
-
         n2 = np.array([[3,3],[4,4],[5,5]])
-
         n3 = np.array([1,1],[2,2])
 
         print(Function(n1,n2,n3))
-
             True            -> Return value for this example
-
         print(Function(n2,n1,n3))
-
             False            -> Return value for this example
+    ```
 
 Let's have fun while learning! Good luck with the review! 🚀🌟📝
